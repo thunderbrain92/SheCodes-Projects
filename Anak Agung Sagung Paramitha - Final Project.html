@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, initial-scale=0.86, maximum-scale=5.0, minimum-scale=0.86">
+    <title>Mitha Final Project</title>
+
+    <style>
+
+    /**********************************************************/ 
+    /***             ANAK AGUNG SAGUNG PARAMITHA           ***/
+    /*** SHECODES.IO INTRODUCTION TO CODING FINAL PROJECT ***/
+    /***               TOKYO, NOV 29 2020                ***/
+    /******************************************************/
+
+
+
+    /***   MODIFICATIN TO CSS STYLE ELEMENTS   ***/
+    body{
+        /* Background with gradient */
+        background:linear-gradient(to top, rgba(88, 85, 86, 0.8) 20%, rgba(0, 0, 0, 0.85) 70%), 
+        url(https://www.careermatch.com/job-prep/wp-content/uploads/sites/2/2017/11/concert-pianist_profile_image.jpg) center/cover no-repeat;
+
+        /* Background properties */
+        overflow: hidden;
+        background-size: cover;
+        width: 100%;
+        height: 100vh;
+        
+       
+    
+    font-size: 16px;
+    line-height: 1.5;
+   
+    
+    }
+
+    #titleGreetings{
+          color : rgb(150, 151, 146);
+          font-size: 55px;
+          font-weight: 100;
+          font-family: Georgia, serif;
+          margin: 0 auto;
+          text-align: center;   
+          text-transform: uppercase;     
+                     
+        } 
+
+    #titleLine{
+          color : rgb(168, 161, 161);
+          font-size: 48px;
+          font-weight: 100;
+          font-family: Open Sans,sans-serif;
+          margin: 0 auto;
+          text-align: center;        
+                     
+        }  
+
+    #titleTopic{
+          color : rgb(226, 215, 215);
+          font-size: 48px;
+          font-weight: 100;
+          font-family: Open Sans,sans-serif;
+          margin: 0 auto;
+          text-align: center;        
+                     
+        } 
+
+    /*** The paragprahs CSS properties ***/
+    #prIntro{
+       color: #f5f4fc;
+       text-align: center;
+       font-weight: bold;
+       font-size: larger; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       display: block;
+       text-align: center; 
+
+        margin: 0 0 12px;
+
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+
+    #prOne{
+       color: #f5f4fc;
+       text-align: center;
+       font-weight: bold;
+       font-size: x-large; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       display: block;
+    }
+
+    #prTwo{
+       color: #f2f1f5;
+       text-align: center;
+       font-weight: bold;
+       font-size: x-large; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       display: block;
+    }
+
+    #prThree{
+       color: rgb(206, 197, 73);
+       text-align: center;
+       font-weight: 400;
+       font-size: x-large; 
+       display: block;
+    }
+
+    #prClink{
+       color: rgb(221, 238, 221);
+       text-align: center;
+       font-weight: 400;
+       font-size: x-large; 
+       display: block;
+    }
+
+    /*** The "Register Here" button CSS properties ***/
+
+    /* The button properties */
+    button{
+        color: white;
+        background: red;
+        font-size: larger;
+        font-weight: bolder;
+        
+    
+        margin: 0 auto;
+        padding: 20px 30px;
+        display: block;
+        box-shadow: 0px 4px 4px 3px rgb(196, 192, 192);
+        border-radius: 30px 30px 30px 30px;
+        border: 20px;
+        margin-bottom: 20px; /*adding extra space on the bottom of the button*/
+
+        /*Transition part of the cursor*/
+        transition: all 200ms ease-in-out;
+
+
+    }
+
+    /* The button hover properties when the mouse pointer is moving*/
+    button:hover{
+        color: rgb(65, 58, 58);
+        background: rgb(241, 245, 15);
+        font-size: xx-large;
+        font-weight: bolder; 
+        cursor:grabbing;    
+
+    }
+
+    /*** Piano Image CSS properties ***/
+    
+    img{
+        width: 500px; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    
+    /* I was wanted to embed a youtube videos but maybe too much stuff and not artistic 😔
+    iframe{
+        width: 500px; 
+        display: block; 
+        margin: 0 auto; 
+    }
+    */
+
+
+    /*** The list items CSS properties ***/    
+    
+    /* Basic list items properties*/
+    .liVideos{
+        color: whitesmoke;
+        margin: 30px;
+        display: inline;
+    }
+      
+    .liCourses{
+        color:whitesmoke;
+        margin: 30px;
+        display: inline;
+    }
+
+    .liBrand{
+        color: white;
+        margin: 30px;
+        display: inline;
+    }
+
+    
+    /*Hovering through the list items*/
+    
+    .liVideos.hover{
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    .liCourses.hover{
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    .liBrand.hover{
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    /*Change the list and subheading default styling*/
+    ul{
+        font-size: la;
+        list-style-type: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        
+    }
+
+    </style>
+</head>
+
+<body>
+    <br /><br />
+    <h1 id="titleGreetings">
+        THE PIANO <strong> <em>HUB</strong></em>    
+    </h1>
+
+    <h1 id="titleLine"> 
+        What <strong>Has Keys</strong> but <strong>Can't Listen</strong> to the beauty it unlocks?
+    </h1>
+
+    <br />
+
+    <h2 id="titleTopic"> 
+        <strong>PIANO</strong> 
+    </h2>
+
+
+
+    <pr id="prIntro"> 
+        <br />
+        The piano was invented by Bartolomeo Cristofori (1655-1731) in Italy
+        <br />
+        Cristofori was unsatisfied by the lack of control that musicians had over the volume level of the harpsichord
+        <br />
+        He is credited for switching out the plucking mechanism with a hammer to create the modern piano in around the year 1700
+        <br />
+        The instrument was actually first named "clavicembalo col piano e forte" (literally, a harpsichord that can play soft and loud noises)
+        <br />
+        This was shortened to the now common name, "PIANO"
+    </pr>
+
+    <img src="https://d2vyvo0tyx8ig5.cloudfront.net/sales/sub-options-bg.jpg" 
+    alt ="Women Developers" width="200"/>
+
+    <pr id="prOne">
+        <br />
+        <strong>
+            Wanted to play a piano but not sure how to start?
+        </strong>
+        <br />
+    </pr>
+
+    <button>
+        Register Here
+    </button>
+
+    <pr id="prTwo">
+        <br />
+        <strong>
+            Play with a convenience of interactive digital platform  
+        </strong>
+        <br />
+    </pr>
+    
+    <pr id="prClink">
+    Click <a href="https://www.youtube.com/watch?v=dMT4rfjeJko" style="color: rgb(255, 51, 0)"><font color="FF00CC"></font> >here</a>
+    to view my favorite piano brand  <strong>STEINWAY & SONS🎞</strong> documentary video.
+    </pr>
+
+    <br />
+
+    <ul margin:>
+        <li class ="liVideos" >
+          
+                <a href="https://www.youtube.com/c/PianoteOfficial/videos" target="_blank" 
+                style="text-decoration: none;
+                color: whitesmoke;
+                ">
+                VIDEOS
+                </a>
+
+        </li>
+      
+        <li class = "liCourses">
+          
+                <a href="https://www.thrivepiano.com/best-online-piano-lessons/" target="_blank" 
+                style="text-decoration: none;
+                color: whitesmoke;
+                ">
+                COURSES
+                </a>
+        
+        </li>
+      
+        <li class = "liBrands">
+
+                <a href="https://luxury-pianos.com/best-piano-brands-in-the-world/" target="_blank" 
+                style="text-decoration: none;
+                color: whitesmoke;
+                ">
+                BRANDS
+                </a>
+
+        </li>
+    </ul>
+    
+    <hr />
+    
+    <pr id="prThree">
+      <strong>
+
+        <em>
+            Coded by Anak Agung Sagung Paramitha <br />
+            Tokyo, November 29th 2020 
+        </em>
+      
+      </strong>
+    </pr>
+    
+    <br />
+    <br />
+    
+    <!-- I was wanted to embed a youtube videos but the page will be too much stuff 😔
+    <iframe width="600" height="400" src="https://www.youtube.com/embed/dMT4rfjeJko" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+    -->
+
+    <script>
+        /*** JS Part of the code -- Write here ***/
+        
+        /*** A function to prompt user inputs for REGISTER HERE button ***/
+        function inputbuttonPrompt(){
+          let inputUsername = prompt ("What is your name?");
+          let inputLocation = prompt ("Where is your location?");
+          let inputUserage  = prompt ("What is your age?");
+          let applyUserInput = document.querySelector('#titleGreetings');
+             
+
+        if (inputUserage >= 18) {
+            applyUserInput.innerHTML = "Thank you for registering on our website <strong> " + inputUsername + "</strong> <br />" + "our customer support in <strong> " + inputLocation + "</strong> <br /> will contact you soon!";
+          } else {
+            applyUserInput.innerHTML = "We are sorry <strong> " + inputUsername + "</strong> <br />" + "You are not eligible for our support";
+          }
+
+
+        }
+        
+        /*Set a variable named registerhereButton for "REGISTER HERE" button atribute*/
+        let registerhereButton = document.querySelector("button");
+        
+        /*Execute the inputbuttonPrompt function whenever the button clicked*/
+          registerhereButton.addEventListener("click", inputbuttonPrompt);
+        
+        /*** END OF CODE ***/
+  
+      </script>
+
+</body>
+</html>
