@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mitha - SheCodes Lesson 5 Challenge</title>
+
+    <style>
+    
+    body{
+        background: #f6f2fe;
+    }
+
+    /*SheCodes Worshop Week 1
+    *Exercise for CSS style elements
+    *<!-- ANAK AGUNG SAGUNG PARAMITHA --> 
+    *<!-- font-weight: 100 is thin--> 
+    */    
+      h1{
+          color : #885df1;
+          font-size: 48px;
+          font-weight: 100;
+          margin: 0 auto;
+          text-align: center;        
+                     
+        }  
+
+    /*Exercise for paragraph CSS style properties*/
+    #one{
+       color: #272044;
+       text-align: center;
+       font-weight: bold;
+       font-size: larger; 
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       display: block;
+    }
+
+    #two{
+       color: green;
+       text-align: center;
+       font-weight: 200;
+       font-size: larger;
+       display: block;
+    }
+
+    /*Exercise for CSS spacing*/
+    /*Exercise for CSS Borders*/
+    button{
+        background: salmon;
+        margin: 0 auto;
+        padding: 20px 30px;
+        display: block;
+        box-shadow: 0px 4px 4px 3px rgb(196, 192, 192);
+        border-radius: 30px 30px 30px 30px;
+        border: 20px;
+        margin-bottom: 20px; /*adding extra space on the buttom of the button*/
+
+        /*Transition part of the cursor*/
+        transition: all 200ms ease-in-out;
+
+
+    }
+
+    /*Button Hover when the mouse pointer is moving*/
+    button:hover{
+        color: white;
+        background: red;
+        font-size: larger;
+        font-weight: bolder; 
+        cursor:grabbing;    
+
+    }
+
+    /*QUESTION 1
+     *Exercise for CSS image positioning
+     *<!-- Put any Questions here  -->
+     *<!-- why do i need to redefine the width while in body i already state it? -->
+     */
+    img{
+        width: 500px; 
+        display: block; 
+        margin: 0 auto; 
+    }
+
+    /*QUESTION 2
+     *Exercise for CSS list style elements
+     *<!-- This code did not succesfully put my list bullet items justified and centered to the page, any other way than defining it as a class? -->
+     *<!-- why do i need to redefine the width while in body i already state it? -->
+     *<!-- Wondering why only the bullets changed color? why the link were not. Tried the .class: visited but failed too --> 
+     */
+    
+    .coders{
+        color: blue;
+        margin: 30px;
+        display: inline;
+    }
+      
+    .courses{
+        color: red;
+        margin: 30px;
+        display: inline;
+    }
+
+    .stories{
+        color: green;
+        margin: 30px;
+        display: inline;
+    }
+
+    /*QUESTION 3 When should we edit the style in each elements and on the list as a whole "ul"? */
+    /*Hovering through the list items*/
+    
+    .coders.hover{
+        cursor: pointer;
+        
+
+    }
+
+    .courses.hover{
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    .stories.hover{
+        cursor: pointer;
+        text-decoration: none;
+
+    }
+
+    /*Change the list and subheading default styling */
+    ul{
+        font-size: larger;
+        list-style-type: none;
+        margin: 0 auto;
+        text-align: center;
+        padding: 0;
+        
+    }
+
+    </style>
+</head>
+
+<body>
+
+    <h1> 
+        <u>SheCodes</u> 
+    </h1>
+
+    <pr id="one">
+        <strong>
+                Coding Workshop for Women  
+        </strong>
+    </pr>
+    
+    <br />
+
+    <button>
+        Apply now
+    </button>
+
+    <ul margin:>
+        <li class ="coders" >
+          
+                <a href="https://www.shecodes.io/students" target="_blank" 
+                style="text-decoration: none;
+                color: blue;
+                ">
+                Coders
+                </a>
+
+        </li>
+      
+        <li class = "courses">
+          
+                <a href="https://www.shecodes.io/workshops" target="_blank" 
+                style="text-decoration: none;
+                color: red;
+                ">
+                Courses
+                </a>
+        
+        </li>
+      
+        <li class = "stories">
+
+                <a href="https://www.shecodes.io/stories" target="_blank" 
+                style="text-decoration: none;
+                color: green;
+                ">
+                Stories
+                </a>
+
+        </li>
+    </ul>
+    
+    <hr />
+    
+    <pr id="two">
+      <strong>
+
+        <em>
+             More info 
+        </em>
+      
+      </strong>
+    </pr>
+    
+    <br />
+    <br />
+    
+    <img src="https://newsroom.unsw.edu.au/sites/default/files/styles/full_width/public/thumbnails/image/shutterstock_795758671_1.jpg?itok=PuX9l9Hs" 
+    alt ="Women Developers" width="400"/>
+    
+</body>
+</html>
